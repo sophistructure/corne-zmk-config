@@ -9,9 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT_L 0
-#define SYMBOLS_L 1
-#define ARROWS_L  2
-#define NUMBERS_L 3
+#define NUMBERS_L 1
 
 
 / {
@@ -36,7 +34,7 @@
    &kp LCTRL &kp Q &kp W &kp F &kp P      &kp G               &kp J &kp L       &kp U     &kp Y   &kp SEMI        &kp FSLH
    &kp TAB   &kp A &kp R &kp S &hm LCMD T &kp D               &kp H &hm LCMD N  &kp E     &kp I   &kp O           &kp BSPC
    &kp LSHFT &kp Z &kp X &kp C &kp V      &kp B               &kp K &kp M       &kp COMMA &kp DOT &kp APOSTROPHE  &kp RET
-                  &kp LCMD &to NUMBERS_L &kp SPACE      &kp RSHFT &to NUMBERS_L &to DEFAULT_L
+                  &kp LCMD &mo NUMBERS_L &kp SPACE      &kp RSHFT &to NUMBERS_L &to DEFAULT_L
                         >;
                 };
 
@@ -46,7 +44,7 @@
    &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL         &none  &none     &none      &none    &kp SEMI        &kp FSLH
    &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &none  &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT       &kp BSPC
    &kp LPAR   &kp RPAR    &kp N1  &kp N2  &kp N3 &kp RET           &none  &none     &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp RET
-                    	     &kp N0 &none  &kp SPACE        &kp RSHFT &kp SPACE  &to DEFAULT_L
+                    	     &kp N0 &mo NUMBERS_L &kp SPACE        &kp RSHFT &kp SPACE  &to DEFAULT_L
                         >;
                 };
         };
