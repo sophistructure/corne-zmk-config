@@ -29,7 +29,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-			label = "DEF";
+			label = "SIMON";
                         bindings = <
    &kp LCTRL &kp Q &kp W &kp F &kp P      &kp G               &kp J &kp L       &kp U     &kp Y   &kp SEMI        &kp FSLH
    &kp TAB   &kp A &kp R &kp S &hm LCMD T &kp D               &kp H &hm LCMD N  &kp E     &kp I   &kp O           &kp BSPC
@@ -39,7 +39,7 @@
                 };
 
                 numbers_layer {
-			label = "NUM";
+			label = "ALT";
                         bindings = <
    &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL         &kp EXCL   &kp AT      &kp HASH   &kp DLLR   &kp SEMI        &kp FSLH
    &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &kp PRCNT  &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT       &kp BSPC
