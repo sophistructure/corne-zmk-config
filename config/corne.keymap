@@ -43,9 +43,9 @@
                 numbers_layer {
 			label = "NUM";
                         bindings = <
-   &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL          &none  &none   &none      &none    &kp SEMI       &kp FSLH
-   &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &none  &none   &none      &none    &none          &kp BSPC
-   &kp LPAR   &kp RPAR    &kp N1  &kp N2  &kp N3 &kp RET         &none  &none   &kp COMMA  &kp DOT  &kp APOSTROPHE &kp RET
+   &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL         &none  &none     &none      &none    &kp SEMI        &kp FSLH
+   &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &none  &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT       &kp BSPC
+   &kp LPAR   &kp RPAR    &kp N1  &kp N2  &kp N3 &kp RET           &none  &none     &kp COMMA  &kp DOT  &kp APOSTROPHE  &kp RET
                     	     &kp N0 &none  &kp SPACE        &kp RSHFT &kp SPACE  &to DEFAULT_L
                         >;
                 };
