@@ -31,9 +31,9 @@
                 default_layer {
 			label = "SIMON";
                         bindings = <
-   &kp ESC      &kp Q &kp W     &kp F       &kp P      &kp G         &kp J   &kp L       &kp U        &kp Y         &kp SEMI        &kp FSLH
-   &kp TAB      &kp A &kp R     &kp S       &kp T      &kp D         &kp H   &kp N       &kp E        &kp I         &kp O           &kp BSPC
-   &kp LCTRL    &kp Z &kp X     &kp C       &kp V      &kp B         &kp K   &kp M       &kp COMMA    &kp DOT       &kp APOSTROPHE  &kp RET
+   &kp ESC    &kp Q &kp W     &kp F       &kp P      &kp G         &kp J   &kp L       &kp U        &kp Y         &kp SEMI        &kp FSLH
+   &kp TAB    &kp A &kp R     &kp S       &kp T      &kp D         &kp H   &kp N       &kp E        &kp I         &kp O           &kp BSPC
+   &kp LCMD   &kp Z &kp X     &kp C       &kp V      &kp B         &kp K   &kp M       &kp COMMA    &kp DOT       &kp APOSTROPHE  &kp RET
               &to NUMBERS_L     &mo NUMBERS_L    &kp SPACE             &kp RSHFT      &mo NUMBERS_L         &kp RCMD
                         >;
                 };
