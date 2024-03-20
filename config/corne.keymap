@@ -49,10 +49,10 @@
                 numbers_layer {
 			label = "ERNIE";
                         bindings = <
-   &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL         &kp EXCL   &kp AT      &kp UP   &kp DLLR   &kp SEMI        &kp FSLH
-   &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &kp PRCNT  &kp LEFT    &kp DOWN   &kp RIGHT    &kp HASH       &kp BSPC
-   &kp LPAR   &kp N0      &kp N1  &kp N2  &kp N3 &kp RET           &kp AMPS   &kp UNDER   &kp COMMA  &kp DOT    &kp APOSTROPHE  &kp RET
-                    	    &kp RPAR &mo NUMBERS_L &kp SPACE         &kp SPACE &kp RSHFT  &bt BT_NXT
+   &kp PLUS   &kp STAR    &kp N7  &kp N8  &kp N9 &kp EQUAL         &kp EXCL   &kp AT      &kp HASH   &kp DLLR   &kp SEMI        &kp FSLH
+   &kp MINUS  &kp FSLH    &kp N4  &kp N5  &kp N6 &kp BSPC          &kp PRCNT  &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT       &kp BSPC
+   &kp LPAR   &kp RPAR    &kp N1  &kp N2  &kp N3 &kp RET           &kp AMPS   &kp UNDER   &kp COMMA  &kp DOT    &kp APOSTROPHE  &kp RET
+                    	    &kp N0 &mo NUMBERS_L &kp SPACE         &kp SPACE &kp RSHFT  &bt BT_NXT
                         >;
                 };
         };
